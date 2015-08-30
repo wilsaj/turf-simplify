@@ -14,7 +14,7 @@ Takes a LineString or Polygon and returns a simplified version. Internally uses 
 
 | parameter     | type                            | description                                                                                            |
 | ------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| `feature`     | Feature\.\<LineString|Polygon\> | feature to be simplified                                                                               |
+| `feature`     | Feature\.\<LineString\|Polygon\> | feature to be simplified                                                                               |
 | `tolerance`   | Number                          | simplification tolerance                                                                               |
 | `highQuality` | Boolean                         | whether or not to spend more time to create a higher-quality simplification with a different algorithm |
 
